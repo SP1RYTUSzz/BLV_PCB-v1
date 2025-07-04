@@ -1793,7 +1793,7 @@
 	)
 	(text "GNSS"
 		(exclude_from_sim no)
-		(at 107.442 18.542 0)
+		(at 144.78 20.066 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1813,6 +1813,18 @@
 		(color 0 0 0 0)
 		(uuid "723937f2-7d2d-48b2-addb-5fece371c98d")
 	)
+	(junction
+		(at 179.07 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96ce0db2-60f4-49cf-aee7-aed4c9b2cafe")
+	)
+	(junction
+		(at 149.86 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efa8e65c-16dd-4175-a6ad-93d71db2baf8")
+	)
 	(wire
 		(pts
 			(xy 36.83 88.9) (xy 34.925 88.9)
@@ -1822,6 +1834,36 @@
 			(type default)
 		)
 		(uuid "05a382fb-9df6-4959-b805-3d6ad172d3a0")
+	)
+	(wire
+		(pts
+			(xy 179.07 100.33) (xy 179.07 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05a83bf9-d22a-43fb-9b75-87290b470356")
+	)
+	(wire
+		(pts
+			(xy 179.07 99.06) (xy 179.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "096e526d-1f93-4d46-b47a-2821deae3072")
+	)
+	(wire
+		(pts
+			(xy 149.86 99.06) (xy 179.07 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1319f2df-102e-4bf8-8346-17a230f5b862")
 	)
 	(wire
 		(pts
@@ -1905,6 +1947,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 85.09) (xy 149.86 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "999752cb-50ea-4496-84e3-ab692533cf0b")
+	)
+	(wire
+		(pts
 			(xy 34.925 88.9) (xy 34.925 97.79)
 		)
 		(stroke
@@ -1922,6 +1974,16 @@
 			(type default)
 		)
 		(uuid "a207be57-11b3-4824-a77b-17d0d6cc489a")
+	)
+	(wire
+		(pts
+			(xy 149.86 92.71) (xy 161.29 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e9ffd8-d2b3-41b1-bf4d-df06092c9735")
 	)
 	(wire
 		(pts
@@ -1965,7 +2027,27 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 24.13) (xy 121.92 25.4)
+			(xy 149.86 92.71) (xy 149.86 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfa8d24d-bb29-466a-8cc5-002c28d7778e")
+	)
+	(wire
+		(pts
+			(xy 149.86 91.44) (xy 149.86 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e996069a-c580-443d-9ca0-5bf978e59400")
+	)
+	(wire
+		(pts
+			(xy 173.99 50.8) (xy 173.99 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2015,9 +2097,9 @@
 			)
 		)
 	)
-	(global_label "MOSI1"
+	(global_label "TX2"
 		(shape input)
-		(at 109.22 43.18 180)
+		(at 161.29 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2027,7 +2109,7 @@
 		)
 		(uuid "83d54d4b-f71b-4a2e-95de-c3fd90e3be60")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.4291 43.18 0)
+			(at 154.9182 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2059,31 +2141,9 @@
 			)
 		)
 	)
-	(global_label "SCK1"
+	(global_label "RX2"
 		(shape input)
-		(at 109.22 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a411c937-7f67-4f10-a918-82e656d423cf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.2758 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MISO1"
-		(shape input)
-		(at 109.22 40.64 180)
+		(at 161.29 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2093,7 +2153,7 @@
 		)
 		(uuid "b5e8c715-cb4a-4ad3-a9e8-19b576fafa91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.4291 40.64 0)
+			(at 154.6158 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,28 +2181,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CS1"
-		(shape input)
-		(at 109.22 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d58929e2-7213-445d-afb9-7b7510e869cd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.5458 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -2351,6 +2389,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 149.86 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32e25935-43bd-435b-ba15-f0135ef7844d")
+		(property "Reference" "#PWR02"
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 149.86 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 149.86 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e291f46d-4632-4a36-9487-0b5d0417df8c")
+		)
+		(instances
+			(project ""
+				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 34.925 99.695 0)
 		(mirror y)
@@ -2417,7 +2521,7 @@
 	)
 	(symbol
 		(lib_id "RF_GPS:NEO-M8N")
-		(at 127 48.26 0)
+		(at 179.07 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2425,7 +2529,7 @@
 		(dnp no)
 		(uuid "6f2e0506-b265-441d-8fcf-cd162a049be1")
 		(property "Reference" "U?"
-			(at 139.192 70.866 0)
+			(at 191.262 97.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +2538,7 @@
 			)
 		)
 		(property "Value" "NEO-M8N"
-			(at 139.192 73.66 0)
+			(at 191.262 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,7 +2547,7 @@
 			)
 		)
 		(property "Footprint" "RF_GPS:ublox_NEO"
-			(at 137.16 69.85 0)
+			(at 189.23 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,7 +2556,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_UBX-15031086.pdf"
-			(at 127 48.26 0)
+			(at 179.07 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2461,7 +2565,7 @@
 			)
 		)
 		(property "Description" "GNSS Module NEO M8, VCC 2.7V to 3.6V"
-			(at 127 48.26 0)
+			(at 179.07 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,7 +3027,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 121.92 24.13 0)
+		(at 173.99 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2932,7 +3036,7 @@
 		(fields_autoplaced yes)
 		(uuid "c58f93a3-e02f-4afd-9aa6-1273b51cfc2d")
 		(property "Reference" "#PWR01"
-			(at 121.92 27.94 0)
+			(at 173.99 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2941,7 +3045,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 121.92 19.05 0)
+			(at 173.99 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,7 +3053,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 24.13 0)
+			(at 173.99 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2958,7 +3062,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 24.13 0)
+			(at 173.99 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2967,7 +3071,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 121.92 24.13 0)
+			(at 173.99 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2982,6 +3086,76 @@
 			(project ""
 				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 149.86 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df0d32f3-5c27-4c84-8eb9-49f82f2effae")
+		(property "Reference" "R1"
+			(at 152.4 87.6299 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 152.4 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "657e1dce-0082-4f76-804d-a6823e74b32d")
+		)
+		(pin "2"
+			(uuid "9b51af44-ae5e-4a23-b35d-63a66090a6ef")
+		)
+		(instances
+			(project ""
+				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3056,7 +3230,7 @@
 	(symbol
 		(lib_name "GND_3")
 		(lib_id "power:GND")
-		(at 127 71.12 0)
+		(at 179.07 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3065,7 +3239,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee4277fe-cd84-4758-be25-1dc0cf39a28e")
 		(property "Reference" "#PWR06"
-			(at 127 77.47 0)
+			(at 179.07 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3074,7 +3248,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 76.2 0)
+			(at 179.07 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3082,7 +3256,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 71.12 0)
+			(at 179.07 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3091,7 +3265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 71.12 0)
+			(at 179.07 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3100,7 +3274,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 71.12 0)
+			(at 179.07 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
