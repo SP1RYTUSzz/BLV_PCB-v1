@@ -1793,7 +1793,7 @@
 	)
 	(text "GNSS"
 		(exclude_from_sim no)
-		(at 144.78 20.066 0)
+		(at 139.954 36.322 0)
 		(effects
 			(font
 				(size 1.27 1.27)
