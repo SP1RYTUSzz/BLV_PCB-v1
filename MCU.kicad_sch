@@ -1052,6 +1052,216 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic_MountingPin:Conn_01x03_MountingPin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_MountingPin"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_MountingPin_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.572) (xy 1.016 -4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -4.191 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1715,6 +1925,131 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
 					(name "~"
 						(effects
 							(font
@@ -3993,6 +4328,19 @@
 		)
 		(uuid "8e1ee2eb-384f-4904-8d61-bdb81f8b08e0")
 	)
+	(text "JST Debug Connector"
+		(exclude_from_sim no)
+		(at 27.686 212.598 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "abfc127d-a860-4f5b-b985-849220639a56")
+	)
 	(text "Make sure these R are close to RP2350\n"
 		(exclude_from_sim no)
 		(at 262.89 107.188 0)
@@ -4145,6 +4493,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "533e506c-e473-4606-a71f-26b442af78be")
+	)
+	(junction
+		(at 50.165 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5845364d-fb78-4628-b9c8-1ed6160f19c8")
 	)
 	(junction
 		(at 48.895 137.16)
@@ -4842,6 +5196,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.165 226.06) (xy 50.165 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "476d8691-9c42-4c29-9004-6c14bdb00d7d")
+	)
+	(wire
+		(pts
 			(xy 274.32 59.69) (xy 274.32 60.96)
 		)
 		(stroke
@@ -4992,6 +5356,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.165 234.95) (xy 50.165 236.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dbb94b2-7542-44ab-8410-bb99308b9f83")
+	)
+	(wire
+		(pts
 			(xy 49.53 49.53) (xy 50.8 49.53)
 		)
 		(stroke
@@ -5019,6 +5393,16 @@
 			(type default)
 		)
 		(uuid "62abf6e2-0c87-4fac-afec-272c7929baf7")
+	)
+	(wire
+		(pts
+			(xy 57.15 233.68) (xy 57.15 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6325a234-5216-4269-b1a3-3d24b7ad2c59")
 	)
 	(wire
 		(pts
@@ -5099,6 +5483,16 @@
 			(type default)
 		)
 		(uuid "7037ed61-aa53-466d-bde4-2113370cb26f")
+	)
+	(wire
+		(pts
+			(xy 52.07 226.06) (xy 50.165 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71ac8baf-e9f6-4de9-8ebc-60206e67fb8d")
 	)
 	(wire
 		(pts
@@ -5362,6 +5756,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 228.6) (xy 52.07 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94b40d6d-b66a-42de-9df5-7ecc65d7a16b")
+	)
+	(wire
+		(pts
 			(xy 76.2 144.78) (xy 88.9 144.78)
 		)
 		(stroke
@@ -5569,6 +5973,16 @@
 			(type default)
 		)
 		(uuid "b33be8dc-559d-482e-bc61-63f20541b41a")
+	)
+	(wire
+		(pts
+			(xy 40.64 228.6) (xy 43.18 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b517247b-b21a-4b85-99e6-4428f6f58d35")
 	)
 	(wire
 		(pts
@@ -6029,6 +6443,16 @@
 			(type default)
 		)
 		(uuid "e8b7e48d-f58b-4249-9250-0f5b0893446f")
+	)
+	(wire
+		(pts
+			(xy 50.165 234.95) (xy 57.15 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e980b52b-1ebb-4f36-b265-6ddbdc76ceee")
 	)
 	(wire
 		(pts
@@ -6572,6 +6996,28 @@
 			)
 		)
 	)
+	(global_label "SWCLK"
+		(shape input)
+		(at 52.07 223.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a750eae-8819-45cc-a20f-cbcbb2d66523")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.8558 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CS1"
 		(shape input)
 		(at 344.17 139.7 180)
@@ -6700,6 +7146,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWD"
+		(shape input)
+		(at 40.64 228.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb3675e9-1bae-4042-9bf1-b3791f49c789")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.7239 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6940,6 +7408,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7005,6 +7479,12 @@
 		(instances
 			(project ""
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
 					(reference "C?")
 					(unit 1)
 				)
@@ -7078,6 +7558,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7141,6 +7627,12 @@
 		(instances
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
 					(reference "C?")
 					(unit 1)
 				)
@@ -7214,6 +7706,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7280,6 +7778,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7340,6 +7844,12 @@
 		(instances
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -7591,6 +8101,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7658,6 +8174,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7720,6 +8242,12 @@
 		(instances
 			(project ""
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -7793,6 +8321,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7858,6 +8392,12 @@
 		(instances
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
 					(reference "C?")
 					(unit 1)
 				)
@@ -7930,6 +8470,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7992,6 +8538,12 @@
 		(instances
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -8064,6 +8616,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8130,6 +8688,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8192,6 +8756,77 @@
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.165 236.855 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "476f894c-2af7-4229-9c29-d211070cda0e")
+		(property "Reference" "#PWR032"
+			(at 50.165 243.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.038 241.2492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.165 236.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.165 236.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.165 236.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5f657dc-11d1-4472-85a4-923e0206bd5b")
+		)
+		(instances
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -8265,6 +8900,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8327,6 +8968,12 @@
 		(instances
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -8400,6 +9047,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "L?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8462,6 +9115,12 @@
 		(instances
 			(project ""
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -8535,6 +9194,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8595,6 +9260,12 @@
 		(instances
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -8665,6 +9336,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8727,6 +9404,87 @@
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
+		(at 57.15 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b3f6c57-9d72-4c0b-8da4-f5a13559ede0")
+		(property "Reference" "J1"
+			(at 59.69 225.1455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM03B-SRSS-TB"
+			(at 59.69 227.6855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+			(at 57.15 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "752becf3-365d-4c69-97f4-b315e9438b6b")
+		)
+		(pin "2"
+			(uuid "404bf04c-5d2f-42b9-ba22-c80ba05d1664")
+		)
+		(pin "3"
+			(uuid "562e0bb7-f034-4986-9143-988ee3b4f9ef")
+		)
+		(pin "MP"
+			(uuid "dcba7fb4-fe05-4ab0-b3f9-b57b8575cc45")
+		)
+		(instances
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8799,6 +9557,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8867,6 +9631,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8929,6 +9699,12 @@
 		(instances
 			(project ""
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -9006,6 +9782,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "Y?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9070,6 +9852,12 @@
 		(instances
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
 					(reference "SW?")
 					(unit 1)
 				)
@@ -9144,6 +9932,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9156,7 +9950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7503f026-2f75-4841-b432-ad6d335fbde2")
-		(property "Reference" "J1"
+		(property "Reference" "J?"
 			(at 367.665 125.73 0)
 			(effects
 				(font
@@ -9233,6 +10027,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9296,6 +10096,12 @@
 		(instances
 			(project ""
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
 					(reference "R?")
 					(unit 1)
 				)
@@ -9364,6 +10170,12 @@
 		(instances
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
 					(reference "R?")
 					(unit 1)
 				)
@@ -9437,6 +10249,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9498,6 +10316,12 @@
 		(instances
 			(project ""
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -9568,6 +10392,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9630,6 +10460,12 @@
 		(instances
 			(project ""
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -9703,6 +10539,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9766,6 +10608,79 @@
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 45.72 228.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d7fb67c-13f3-4df8-a9f9-c49827d30956")
+		(property "Reference" "R1"
+			(at 45.72 226.822 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 45.72 230.886 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 45.72 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80dfba55-6045-4449-b74d-9d3211ac30a9")
+		)
+		(pin "2"
+			(uuid "7d7d54c2-c249-4dc8-90db-e202699da0b9")
+		)
+		(instances
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9839,6 +10754,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9907,6 +10828,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9969,6 +10896,12 @@
 		(instances
 			(project ""
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -10043,6 +10976,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10105,6 +11044,12 @@
 		(instances
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -10175,6 +11120,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10238,6 +11189,12 @@
 		(instances
 			(project ""
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
 					(reference "C?")
 					(unit 1)
 				)
@@ -10312,6 +11269,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10374,6 +11337,12 @@
 		(instances
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -10443,6 +11412,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10507,6 +11482,12 @@
 		(instances
 			(project ""
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
 					(reference "R?")
 					(unit 1)
 				)
@@ -10624,6 +11605,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10693,6 +11680,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10753,6 +11746,12 @@
 		(instances
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -10826,6 +11825,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10892,6 +11897,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10903,7 +11914,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd9f2c59-bbc0-4450-aa5c-bb48b298c000")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR?"
 			(at 334.01 140.97 0)
 			(effects
 				(font
@@ -10954,6 +11965,12 @@
 			(project ""
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -11023,6 +12040,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11088,6 +12111,12 @@
 		(instances
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
 					(reference "C?")
 					(unit 1)
 				)
@@ -11162,6 +12191,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11224,6 +12259,12 @@
 		(instances
 			(project ""
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -11298,6 +12339,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11310,7 +12357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8bb67f5-0b2a-4985-8569-177486e83d6f")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR?"
 			(at 334.01 163.83 0)
 			(effects
 				(font
@@ -11361,6 +12408,12 @@
 			(project ""
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -11432,6 +12485,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11444,7 +12503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eab4247a-90bf-4acf-a622-fd4778a83f36")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR?"
 			(at 388.62 167.64 0)
 			(effects
 				(font
@@ -11495,6 +12554,12 @@
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/6e201a35-d390-4e65-a234-b842b3106670"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -11567,6 +12632,18 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
