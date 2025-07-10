@@ -2700,6 +2700,16 @@
 	)
 	(text "GNSS"
 		(exclude_from_sim no)
+		(at 44.45 90.932 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a2b88a3b-8317-497a-bd0a-d310e59a82ea")
+	)
+	(text "GNSS"
+		(exclude_from_sim no)
 		(at 191.77 18.542 0)
 		(effects
 			(font
@@ -2725,6 +2735,12 @@
 		(uuid "013ca3d3-28f3-4ad2-9c90-513dbf4c49d4")
 	)
 	(junction
+		(at 76.2 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0452ff51-34a9-47fe-9f87-0f510732b1ef")
+	)
+	(junction
 		(at 207.01 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2743,16 +2759,40 @@
 		(uuid "2621f1b0-bf48-462b-a724-ae750a26fe34")
 	)
 	(junction
+		(at 59.69 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b1907eb-8035-4c8f-bc68-74b6338c661e")
+	)
+	(junction
+		(at 121.92 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33f9be0e-bba7-475c-8cdc-6ecef250917d")
+	)
+	(junction
 		(at 237.49 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b477417-3cc7-4fb6-a7b6-f8306bd5c908")
 	)
 	(junction
+		(at 60.96 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41e6337c-ea74-4466-9738-06d877c715b5")
+	)
+	(junction
 		(at 67.31 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4eb9a9a0-5198-4cd7-94f3-def588bcee17")
+	)
+	(junction
+		(at 90.17 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63e149b9-7eb3-4ec3-8302-b4ed2d3e74cf")
 	)
 	(junction
 		(at 215.9 21.59)
@@ -2767,6 +2807,12 @@
 		(uuid "723937f2-7d2d-48b2-addb-5fece371c98d")
 	)
 	(junction
+		(at 116.84 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "735e6258-ec23-463a-9cf7-cfca05a846c4")
+	)
+	(junction
 		(at 223.52 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2777,6 +2823,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a2aaa4e-bdd3-480c-a453-6076cb0fe2b8")
+	)
+	(junction
+		(at 76.2 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cde2a6d-b63b-4ccd-8f8d-bfb4dd68f641")
 	)
 	(junction
 		(at 269.24 54.61)
@@ -2795,6 +2847,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f886b70-2a8d-410a-b99d-e87d2d40cce7")
+	)
+	(junction
+		(at 76.2 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2a54c62-0caf-4329-8f31-f8e278ea1090")
 	)
 	(junction
 		(at 190.5 97.79)
@@ -2821,6 +2879,12 @@
 		(uuid "c433f906-39e5-4398-a3e4-87cfb7d1bfad")
 	)
 	(junction
+		(at 68.58 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5eee7d9-07d4-4046-bb6e-667e090f2463")
+	)
+	(junction
 		(at 223.52 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2843,6 +2907,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e675eda0-1254-48d3-815e-91aa92c64d61")
+	)
+	(junction
+		(at 68.58 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edcdac8b-58b1-46bf-99e1-99cb4cffa120")
 	)
 	(junction
 		(at 220.98 157.48)
@@ -2912,6 +2982,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 149.86) (xy 90.17 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09fcac63-8dd0-44b3-a2d3-f99939cdfd35")
+	)
+	(wire
+		(pts
 			(xy 101.6 39.37) (xy 101.6 43.18)
 		)
 		(stroke
@@ -2949,6 +3029,26 @@
 			(type default)
 		)
 		(uuid "14214a32-1870-42a3-8456-952b35f2a46a")
+	)
+	(wire
+		(pts
+			(xy 121.92 111.76) (xy 121.92 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "145a8fdc-10e9-4adb-bcc1-895e38266857")
+	)
+	(wire
+		(pts
+			(xy 68.58 93.98) (xy 76.2 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15466718-df28-43c7-98a5-124d7eb28bbe")
 	)
 	(wire
 		(pts
@@ -3019,6 +3119,16 @@
 			(type default)
 		)
 		(uuid "28883377-ac72-4c16-af05-a5da2b548f96")
+	)
+	(wire
+		(pts
+			(xy 59.69 93.98) (xy 68.58 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ab92807-41b6-4077-844a-63640d03f4c7")
 	)
 	(wire
 		(pts
@@ -3112,6 +3222,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 153.67) (xy 90.17 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b85469a-431b-4727-9f33-d4a649509938")
+	)
+	(wire
+		(pts
 			(xy 190.5 97.79) (xy 199.39 97.79)
 		)
 		(stroke
@@ -3132,6 +3252,26 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 142.24) (xy 67.31 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef3589c-90e1-4f69-9836-077df8dc2354")
+	)
+	(wire
+		(pts
+			(xy 60.96 144.78) (xy 60.96 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44e04ec6-f673-4b70-a1bd-f716e5876651")
+	)
+	(wire
+		(pts
 			(xy 252.73 115.57) (xy 252.73 121.92)
 		)
 		(stroke
@@ -3149,6 +3289,36 @@
 			(type default)
 		)
 		(uuid "463ef55c-481f-4f62-a65e-7b55e54af39a")
+	)
+	(wire
+		(pts
+			(xy 76.2 99.06) (xy 76.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48a418cf-a9e6-476d-aa96-833794333600")
+	)
+	(wire
+		(pts
+			(xy 90.17 153.67) (xy 60.96 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "499758a1-7df4-453b-9ba7-10013d812a7f")
+	)
+	(wire
+		(pts
+			(xy 116.84 127) (xy 116.84 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cd020b5-5c9d-4855-a3da-12f70500e0bc")
 	)
 	(wire
 		(pts
@@ -3222,6 +3392,26 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 91.44) (xy 58.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e5901e7-5b3e-48cf-af98-ad8667466fa8")
+	)
+	(wire
+		(pts
+			(xy 68.58 99.06) (xy 59.69 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f62f8ac-adec-4c49-ba90-1da97d4f5ebb")
+	)
+	(wire
+		(pts
 			(xy 114.3 66.04) (xy 114.3 63.5)
 		)
 		(stroke
@@ -3292,6 +3482,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 99.06) (xy 76.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7346f572-a9a5-4925-9a17-976f068d7a5b")
+	)
+	(wire
+		(pts
 			(xy 217.17 31.75) (xy 223.52 31.75)
 		)
 		(stroke
@@ -3299,6 +3499,16 @@
 			(type default)
 		)
 		(uuid "76aed1f4-c26a-4247-8b4b-3bee92d7dde1")
+	)
+	(wire
+		(pts
+			(xy 104.14 101.6) (xy 111.76 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78eb05a1-b45a-4565-bf58-af954848334e")
 	)
 	(wire
 		(pts
@@ -3352,6 +3562,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 104.14) (xy 76.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81241bce-292c-4f96-9363-ba62d1e19183")
+	)
+	(wire
+		(pts
 			(xy 208.28 72.39) (xy 208.28 69.85)
 		)
 		(stroke
@@ -3359,6 +3579,16 @@
 			(type default)
 		)
 		(uuid "818c8ab7-e446-4181-be01-8c078f5ad856")
+	)
+	(wire
+		(pts
+			(xy 116.84 116.84) (xy 116.84 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "823d6e8e-7545-429a-8bb5-dfd8efa9393c")
 	)
 	(wire
 		(pts
@@ -3422,6 +3652,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 93.98) (xy 59.69 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c32f865-71f7-4244-a8e6-d2aa53878265")
+	)
+	(wire
+		(pts
 			(xy 237.49 81.28) (xy 208.28 81.28)
 		)
 		(stroke
@@ -3452,6 +3692,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 104.14) (xy 90.17 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94f2aecf-5e32-4c7c-8097-81b43e4b3bee")
+	)
+	(wire
+		(pts
 			(xy 189.23 97.79) (xy 190.5 97.79)
 		)
 		(stroke
@@ -3469,6 +3719,16 @@
 			(type default)
 		)
 		(uuid "97d7b765-62d3-42ae-b5ab-2223cd27359a")
+	)
+	(wire
+		(pts
+			(xy 95.25 101.6) (xy 99.06 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e783fe-a8d0-4bde-9f2c-557b2f6a6e4d")
 	)
 	(wire
 		(pts
@@ -3522,6 +3782,46 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 144.78) (xy 60.96 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f3392b-bd99-44b0-80a6-7df44e1e842c")
+	)
+	(wire
+		(pts
+			(xy 76.2 104.14) (xy 85.09 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8704f19-823b-4840-8b2f-457ad56405e5")
+	)
+	(wire
+		(pts
+			(xy 67.31 142.24) (xy 67.31 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad7e41f6-ad36-495f-8514-fb719b666aad")
+	)
+	(wire
+		(pts
+			(xy 87.63 93.98) (xy 87.63 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af3460c9-f8c9-44ed-b88d-30052b6506e5")
+	)
+	(wire
+		(pts
 			(xy 92.71 46.99) (xy 92.71 48.26)
 		)
 		(stroke
@@ -3572,6 +3872,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 123.19) (xy 121.92 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc35568e-8baa-4678-bfc4-063ff6e10d39")
+	)
+	(wire
+		(pts
 			(xy 25.4 63.5) (xy 58.42 63.5)
 		)
 		(stroke
@@ -3602,6 +3912,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 153.67) (xy 90.17 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c78d685a-2d16-405b-ba37-e825a4ed0d9e")
+	)
+	(wire
+		(pts
 			(xy 223.52 31.75) (xy 232.41 31.75)
 		)
 		(stroke
@@ -3609,6 +3929,16 @@
 			(type default)
 		)
 		(uuid "c7ddf2fa-17fa-4103-b29e-1ae35dc162fd")
+	)
+	(wire
+		(pts
+			(xy 129.54 132.08) (xy 129.54 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f3f560-060b-4a9b-ad93-740c0e4339c7")
 	)
 	(wire
 		(pts
@@ -3632,6 +3962,36 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 93.98) (xy 87.63 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c719ca-67da-4f2b-b009-94964d9bbbab")
+	)
+	(wire
+		(pts
+			(xy 76.2 93.98) (xy 76.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4010b75-630c-4273-b738-2787ea2f4179")
+	)
+	(wire
+		(pts
+			(xy 111.76 101.6) (xy 111.76 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e9ca80-825b-4e5b-b32f-71fd25ec752c")
+	)
+	(wire
+		(pts
 			(xy 101.6 43.18) (xy 104.14 43.18)
 		)
 		(stroke
@@ -3652,6 +4012,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 127) (xy 116.84 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd4fc249-98b6-43b2-84ff-45398c3efdf1")
+	)
+	(wire
+		(pts
 			(xy 220.98 107.95) (xy 220.98 97.79)
 		)
 		(stroke
@@ -3659,6 +4029,26 @@
 			(type default)
 		)
 		(uuid "dd8bc39b-c927-472e-9561-e17879309295")
+	)
+	(wire
+		(pts
+			(xy 90.17 93.98) (xy 110.49 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df7aadee-e8af-4ba3-bb13-177a7284e216")
+	)
+	(wire
+		(pts
+			(xy 116.84 127) (xy 121.92 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe464d1-ca09-48ee-9cb3-5e21ef57daef")
 	)
 	(wire
 		(pts
@@ -3692,6 +4082,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 134.62) (xy 109.22 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebb8b08d-d6f5-4751-a5f8-0c81435971fe")
+	)
+	(wire
+		(pts
 			(xy 269.24 54.61) (xy 271.78 54.61)
 		)
 		(stroke
@@ -3699,6 +4099,16 @@
 			(type default)
 		)
 		(uuid "ed64c96b-4019-4a07-a19f-858070e8078e")
+	)
+	(wire
+		(pts
+			(xy 121.92 127) (xy 124.46 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee19813d-8ae0-464b-a857-a25c404f60f5")
 	)
 	(wire
 		(pts
@@ -3712,6 +4122,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 104.14) (xy 95.25 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f16a0cb6-c0cb-4a2c-a251-caf05de07499")
+	)
+	(wire
+		(pts
 			(xy 252.73 130.81) (xy 255.27 130.81)
 		)
 		(stroke
@@ -3719,6 +4139,16 @@
 			(type default)
 		)
 		(uuid "f602727a-a299-4dfe-afce-63021b045179")
+	)
+	(wire
+		(pts
+			(xy 72.39 144.78) (xy 60.96 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a6fdb4-1712-49c7-9c14-2e8f1769ffc0")
 	)
 	(wire
 		(pts
@@ -3789,6 +4219,38 @@
 			(justify left bottom)
 		)
 		(uuid "e41f0900-c5ca-432e-8822-cc77844f0c45")
+	)
+	(label "TP"
+		(at 109.22 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f27ddd72-de91-49b5-bc53-c5d9e87bc29e")
+	)
+	(global_label "TX2"
+		(shape input)
+		(at 72.39 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2ced718d-4cc9-49bc-a4e4-1e457da53b88")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.0182 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "RX2"
 		(shape input)
@@ -3900,6 +4362,28 @@
 			)
 		)
 	)
+	(global_label "RX2"
+		(shape input)
+		(at 72.39 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f774684e-bc4e-4afc-b27d-900240685130")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 65.7158 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Sensor_Temperature:MCP9808_MSOP")
 		(at 114.3 50.8 0)
@@ -3980,6 +4464,74 @@
 			(project ""
 				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
 					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 101.6 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0252197c-00c2-4da8-b2df-7381ca23b1dd")
+		(property "Reference" "R1"
+			(at 101.6 96.52 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 101.6 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b731a49-2bf1-48de-8f7a-c7da1706ec92")
+		)
+		(pin "2"
+			(uuid "63ad47f9-44a3-4038-96cf-20a72d0c37c3")
+		)
+		(instances
+			(project "LiPo_GNSS_debug"
+				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4395,6 +4947,145 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 55.88 153.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30557115-a0a8-4af6-add2-7cf091f4df81")
+		(property "Reference" "J1"
+			(at 55.88 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 55.88 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B1B-XH-AM_1x01_P2.50mm_Vertical"
+			(at 55.88 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 55.88 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bebc010-9320-45c7-8184-c570297aaaae")
+		)
+		(pin "2"
+			(uuid "85b685e7-0388-4a45-b0a1-8a263b0ee259")
+		)
+		(instances
+			(project "LiPo_GNSS_debug"
+				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Feedthrough")
+		(at 116.84 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31c63109-705b-4b91-9f9d-33d87eeb6593")
+		(property "Reference" "C10"
+			(at 116.84 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Feedthrough"
+			(at 116.84 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Feedthrough capacitor"
+			(at 116.84 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7445c581-dfb7-4c5a-a92b-c424865c147e")
+		)
+		(pin "3"
+			(uuid "a2b398a5-86ed-4d77-9126-d618408fe1d5")
+		)
+		(pin "2"
+			(uuid "ea81cef6-d17f-4101-9bc3-1c12fac89488")
+		)
+		(instances
+			(project "LiPo_GNSS_debug"
+				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_Coaxial")
 		(at 260.35 130.81 0)
 		(unit 1)
@@ -4662,6 +5353,139 @@
 			(project "LiPo_GNSS_debug"
 				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 116.84 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35e56ada-b513-44fd-8c0b-8b9c6bfdc252")
+		(property "Reference" "#PWR031"
+			(at 116.84 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d4bfdb5-3ee8-4286-ad26-79024c1e36e9")
+		)
+		(instances
+			(project "LiPo_GNSS_debug"
+				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 60.96 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "397ddda7-4d22-4d91-b75b-2ea59e90e2bc")
+		(property "Reference" "#PWR026"
+			(at 60.96 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 60.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 60.96 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "765a64e1-906d-42aa-b507-433ec6fcef6f")
+		)
+		(instances
+			(project "LiPo_GNSS_debug"
+				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -5011,6 +5835,141 @@
 		)
 	)
 	(symbol
+		(lib_id "RF_GPS:NEO-M8N")
+		(at 90.17 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58841052-183d-4b88-9fd0-4995c33d1120")
+		(property "Reference" "U2"
+			(at 102.362 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NEO-M8N"
+			(at 102.362 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RF_GPS:ublox_NEO"
+			(at 100.33 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_UBX-15031086.pdf"
+			(at 90.17 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GNSS Module NEO M8, VCC 2.7V to 3.6V"
+			(at 90.17 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "efd9f18e-d3e9-4f71-b4dd-998b0f7d1146")
+		)
+		(pin "6"
+			(uuid "31c5601c-d79d-4adc-aa52-20388561d019")
+		)
+		(pin "15"
+			(uuid "cc0c94b8-3c13-4aa4-81d5-522ad1cd7bb4")
+		)
+		(pin "24"
+			(uuid "52be9ba0-8c70-4a55-8b31-4b07185ffa08")
+		)
+		(pin "20"
+			(uuid "0e0af9cf-f6d7-4b24-a891-684115812d97")
+		)
+		(pin "8"
+			(uuid "514c620b-1ed6-4cd3-9c98-50b1a0691577")
+		)
+		(pin "7"
+			(uuid "af8e1eba-db9b-410b-a422-a60aeddb6e00")
+		)
+		(pin "23"
+			(uuid "ace6d166-4790-4e34-844d-0113d531e8d4")
+		)
+		(pin "3"
+			(uuid "f56a34ef-ce15-401f-b176-83fc78c730fb")
+		)
+		(pin "19"
+			(uuid "00cadbbb-3e72-48d8-96b5-3ea07f586aea")
+		)
+		(pin "9"
+			(uuid "02ca72be-b151-47b1-8082-78b484b75f97")
+		)
+		(pin "12"
+			(uuid "3078c8f8-504f-440d-93bd-01a8363cd43c")
+		)
+		(pin "13"
+			(uuid "272d9604-01ee-4284-a356-76c0dc64fb8b")
+		)
+		(pin "4"
+			(uuid "244dcbdd-e2ab-4ffa-bae0-496b0d9a1e13")
+		)
+		(pin "14"
+			(uuid "64e5eaaf-3ddc-4d6f-b32d-02e38654a939")
+		)
+		(pin "18"
+			(uuid "9dfb5b7f-7572-4a81-bbd4-624bd6659cd0")
+		)
+		(pin "22"
+			(uuid "7d82c836-7f07-4dd8-b78c-db92519a5647")
+		)
+		(pin "16"
+			(uuid "d8592a3c-82d4-4f0a-a839-aa5450295b8b")
+		)
+		(pin "10"
+			(uuid "20fc61ef-266e-40b5-b807-94f6462a5a67")
+		)
+		(pin "21"
+			(uuid "381f4d7b-71e3-41ec-8db9-f1d82833910e")
+		)
+		(pin "2"
+			(uuid "575c18c8-e449-4382-8a76-d66b5329b38c")
+		)
+		(pin "1"
+			(uuid "032d3d4e-f634-4e9a-9bd5-6e2bc923b705")
+		)
+		(pin "17"
+			(uuid "cd7870ae-5f33-4ec0-ad42-ba30e7835826")
+		)
+		(pin "11"
+			(uuid "ea0aac8c-2cdb-4738-8d47-e09094b36562")
+		)
+		(instances
+			(project "LiPo_GNSS_debug"
+				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_3")
 		(lib_id "power:GND")
 		(at 241.3 97.79 0)
@@ -5140,6 +6099,76 @@
 			(project ""
 				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
 					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 121.92 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bac3339-c4ea-433f-b109-8d949696e52b")
+		(property "Reference" "L2"
+			(at 123.19 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "27nH"
+			(at 123.19 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor, small symbol"
+			(at 121.92 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1f508c9-2e57-4b1c-8a7f-ff5e60312fb4")
+		)
+		(pin "2"
+			(uuid "4f0c83f9-54c6-46bd-a390-47f5cc7b5089")
+		)
+		(instances
+			(project "LiPo_GNSS_debug"
+				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -5276,6 +6305,76 @@
 			(project "LiPo_GNSS_debug"
 				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 76.2 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "663e678e-651c-4fdb-9afe-2e57ec9e749d")
+		(property "Reference" "C9"
+			(at 78.74 95.2435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 78.74 97.7835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 76.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e45976dd-000a-4ab1-a5bb-5ce30e255ce3")
+		)
+		(pin "2"
+			(uuid "6c403d7e-8025-422e-b909-ba1234ad3cac")
+		)
+		(instances
+			(project "LiPo_GNSS_debug"
+				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -5826,6 +6925,73 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_3")
+		(lib_id "power:GND")
+		(at 69.85 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86afa717-ce94-48c1-9c68-c0b453390c24")
+		(property "Reference" "#PWR028"
+			(at 69.85 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff630566-7e3f-44af-8724-593cd55874bd")
+		)
+		(instances
+			(project "LiPo_GNSS_debug"
+				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Feedthrough")
 		(at 247.65 118.11 0)
 		(unit 1)
@@ -5964,6 +7130,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 129.54 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8be5e2ce-f9ef-4c73-8071-8b5b92f5c674")
+		(property "Reference" "J3"
+			(at 133.35 126.0231 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 133.35 128.5631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d05f751b-8c52-4abe-9c61-3998ecc17ad1")
+		)
+		(pin "1"
+			(uuid "ac898a97-2a15-4d6d-9e42-d09620543f06")
+		)
+		(instances
+			(project "LiPo_GNSS_debug"
+				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 59.69 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fa96a74-1589-4084-9bfe-8fd3bc6edc11")
+		(property "Reference" "C7"
+			(at 62.23 95.2435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 62.23 97.7835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 59.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd618392-5323-4380-9aaf-75799caa253e")
+		)
+		(pin "2"
+			(uuid "faee7de9-7a29-4173-b628-9b6f649b1929")
+		)
+		(instances
+			(project "LiPo_GNSS_debug"
+				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_3")
 		(lib_id "power:GND")
 		(at 217.17 31.75 0)
@@ -6031,6 +7337,73 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_3")
+		(lib_id "power:GND")
+		(at 90.17 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9366c057-1587-41ae-a2c5-ec015d4b5f15")
+		(property "Reference" "#PWR029"
+			(at 90.17 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69036733-5397-4658-bcc2-c37698c0e596")
+		)
+		(instances
+			(project "LiPo_GNSS_debug"
+				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 31.75 53.34 0)
@@ -6092,6 +7465,72 @@
 			(project "damian_blocks_pcb"
 				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 67.31 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96825b36-81cc-4765-ab92-4c8662266083")
+		(property "Reference" "#PWR027"
+			(at 67.31 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 67.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 67.31 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b632b8b4-7054-4db1-bd1f-bf230e9b5b6c")
+		)
+		(instances
+			(project "LiPo_GNSS_debug"
+				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -6451,6 +7890,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 67.31 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abd291f5-18ff-4b0f-b9b1-22f15101996a")
+		(property "Reference" "R2"
+			(at 69.088 137.668 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 68.072 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 67.31 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d3a12f0-7550-4097-b101-4fafdbb593ae")
+		)
+		(pin "1"
+			(uuid "1325a740-6d8d-4b40-9853-a0e0f826960d")
+		)
+		(instances
+			(project "LiPo_GNSS_debug"
+				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_3")
 		(lib_id "power:GND")
 		(at 220.98 158.75 0)
@@ -6801,6 +8309,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 60.96 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7b8cd34-dd86-4a04-8c95-afbb2f06e6f0")
+		(property "Reference" "R1"
+			(at 63.5 138.4299 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 63.5 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 60.96 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4721e5a7-1757-4318-a70f-9a113a663df3")
+		)
+		(pin "1"
+			(uuid "6360fb7a-67e6-40af-abde-04f3f897d10f")
+		)
+		(instances
+			(project "LiPo_GNSS_debug"
+				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 114.3 34.29 0)
 		(unit 1)
@@ -6861,6 +8439,71 @@
 			(project ""
 				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 58.42 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce8f3a18-c9ae-4b99-a698-ce5d2bc07567")
+		(property "Reference" "#PWR025"
+			(at 58.42 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 58.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f42e84ed-22c5-454f-99fe-e6960c553219")
+		)
+		(instances
+			(project "LiPo_GNSS_debug"
+				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6997,6 +8640,143 @@
 			(project ""
 				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
 					(reference "J?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_3")
+		(lib_id "power:GND")
+		(at 110.49 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da90635f-8716-4405-b9ed-87fb29083421")
+		(property "Reference" "#PWR030"
+			(at 110.49 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a6612e1-3b3c-4b09-9bfb-827164228766")
+		)
+		(instances
+			(project "LiPo_GNSS_debug"
+				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 68.58 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da93b797-3102-414d-b0c8-7939bc708f34")
+		(property "Reference" "C8"
+			(at 71.12 95.2435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 71.12 97.7835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 68.58 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e6ae1e1-1787-49b0-9174-668b7f4a08d3")
+		)
+		(pin "2"
+			(uuid "fba0f725-e128-4bbd-a852-f435eefe15c3")
+		)
+		(instances
+			(project "LiPo_GNSS_debug"
+				(path "/9841acd6-84c9-43b3-bb27-06c48da1b9d4"
+					(reference "C8")
 					(unit 1)
 				)
 			)
