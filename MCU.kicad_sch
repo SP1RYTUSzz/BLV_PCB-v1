@@ -2251,156 +2251,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SS14"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SS14"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SMA"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "40V 1A Schottky Diode, SMA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SMA*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SS14_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SS14_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MCU_RaspberryPi_RP2350:RP2350_60QFN"
 			(pin_names
 				(offset 1.016)
@@ -4756,6 +4606,12 @@
 		(uuid "18773bcb-87e6-4a22-a590-901e3cbb46d0")
 	)
 	(junction
+		(at 106.68 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cecd8da-93dd-4442-845e-c986ebd0823f")
+	)
+	(junction
 		(at 228.6 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4790,12 +4646,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31f1e7f5-b861-4882-aab4-cd7c36b63803")
-	)
-	(junction
-		(at 106.68 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31f73051-a648-43a4-aadb-306e90190b98")
 	)
 	(junction
 		(at 40.64 175.26)
@@ -4844,12 +4694,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58c51007-a0b4-4bf7-877b-76a354b3356b")
-	)
-	(junction
-		(at 106.68 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5de316cd-9c3e-429e-85fb-96f0994906bd")
 	)
 	(junction
 		(at 287.02 59.69)
@@ -5035,7 +4879,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 40.64) (xy 106.68 38.1)
+			(xy 106.68 29.21) (xy 106.68 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5262,6 +5106,16 @@
 			(type default)
 		)
 		(uuid "1b9f9341-d2e6-4930-8ccf-44e921a66ed6")
+	)
+	(wire
+		(pts
+			(xy 99.06 29.21) (xy 106.68 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1db35fd6-48b4-480d-bc7e-8b9f3b198d07")
 	)
 	(wire
 		(pts
@@ -5765,16 +5619,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 35.56) (xy 99.06 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "659384d7-e5e5-4ed5-b0ec-1743c6b6f642")
-	)
-	(wire
-		(pts
 			(xy 255.27 196.85) (xy 255.27 199.39)
 		)
 		(stroke
@@ -6045,7 +5889,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 24.13) (xy 106.68 26.67)
+			(xy 106.68 26.67) (xy 106.68 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6192,16 +6036,6 @@
 			(type default)
 		)
 		(uuid "9979d347-0b84-43ab-9e60-5a429fb58527")
-	)
-	(wire
-		(pts
-			(xy 99.06 35.56) (xy 106.68 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bf6d1f4-180b-4410-9658-e2d3c5e84318")
 	)
 	(wire
 		(pts
@@ -6472,16 +6306,6 @@
 			(type default)
 		)
 		(uuid "c40e6a17-002f-4f07-ac5e-ad732c2b5a03")
-	)
-	(wire
-		(pts
-			(xy 106.68 38.1) (xy 106.68 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4dda346-0b03-461e-a278-b4765229d612")
 	)
 	(wire
 		(pts
@@ -7072,16 +6896,6 @@
 			(type default)
 		)
 		(uuid "f9fb1e71-9526-41a8-818d-6e679369aaf6")
-	)
-	(wire
-		(pts
-			(xy 106.68 34.29) (xy 106.68 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb1eef6d-4587-420b-92d5-226e8bcd3dd6")
 	)
 	(wire
 		(pts
@@ -9429,7 +9243,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 45.72 0)
+		(at 106.68 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9438,7 +9252,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a6ffe1f-afa8-4107-8847-20c797d24720")
 		(property "Reference" "#PWR?"
-			(at 106.68 52.07 0)
+			(at 106.68 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9447,7 +9261,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 50.8 0)
+			(at 106.68 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9455,7 +9269,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 45.72 0)
+			(at 106.68 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9464,7 +9278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 45.72 0)
+			(at 106.68 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9473,7 +9287,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 45.72 0)
+			(at 106.68 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9576,7 +9390,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 106.68 24.13 0)
+		(at 106.68 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9585,7 +9399,7 @@
 		(fields_autoplaced yes)
 		(uuid "553bf0a5-a31f-4c35-910c-5d13637c84f2")
 		(property "Reference" "#PWR?"
-			(at 106.68 27.94 0)
+			(at 106.68 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9594,7 +9408,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 106.68 19.05 0)
+			(at 106.68 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9602,7 +9416,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 24.13 0)
+			(at 106.68 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9611,7 +9425,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 24.13 0)
+			(at 106.68 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9620,7 +9434,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 106.68 24.13 0)
+			(at 106.68 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10914,76 +10728,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SS14")
-		(at 106.68 30.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "821681ff-f139-41f2-823c-8aa1804ff7df")
-		(property "Reference" "D1"
-			(at 109.22 28.8924 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS14"
-			(at 109.22 31.4324 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 102.235 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
-			(at 106.68 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 1A Schottky Diode, SMA"
-			(at 106.68 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "51a9029f-5a97-40d8-8f1d-af7e1a4634da")
-		)
-		(pin "2"
-			(uuid "ca894971-a728-408f-8b03-2b240f96a1f9")
-		)
-		(instances
-			(project "MCU"
-				(path "/f6b69531-d30c-486d-b9b8-67bb2790b07b"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 124.46 123.19 0)
 		(unit 1)
@@ -11858,7 +11602,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 106.68 41.91 0)
+		(at 106.68 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11867,7 +11611,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9c5dcef-4291-4882-b208-9475f8ad89ce")
 		(property "Reference" "C?"
-			(at 110.49 40.6399 0)
+			(at 110.49 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11876,7 +11620,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 110.49 43.1799 0)
+			(at 110.49 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11885,7 +11629,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.6452 45.72 0)
+			(at 107.6452 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11894,7 +11638,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 41.91 0)
+			(at 106.68 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11903,7 +11647,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 106.68 41.91 0)
+			(at 106.68 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
